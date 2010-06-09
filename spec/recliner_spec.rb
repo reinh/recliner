@@ -30,7 +30,7 @@ describe '' do
 
       describe "when it does not exist" do
         it { should_not raise_error }
-        it('should be ok') { subject.call['ok'].should be_true }
+        it { subject.call.should be_a_kind_of(Recliner::Database) }
       end
 
       describe "when it already exists" do
