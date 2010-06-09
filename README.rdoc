@@ -1,6 +1,6 @@
 = recliner
 
-Description goes here.
+Recliner is Yet Another CouchDB Client. It focuses on tightly abstracting the CouchDB REST interface and staying out of your way.
 
 == Note on Patches/Pull Requests
  
